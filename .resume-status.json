@@ -1,0 +1,8 @@
+{
+  "outcome": "succeeded",
+  "fix_type": "transient",
+  "resume_from": "build",
+  "message": "Pipeline resumed from build and finished.",
+  "log": "projects/SkyOut/.resume-20260925-185435.log",
+  "attempted_at_epoch": 1790359121
+}

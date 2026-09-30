@@ -1,0 +1,13 @@
+{
+  "app": "SkyOut",
+  "note": "tapFrac is [x, y] normalised SCREEN space with y measured from the top. UI targets are computed from the RectTransform anchors this codegen authored over the 1242x2688 reference canvas; board targets are computed from the camera (orthographicSize 5, portrait 19.5:9), where the field centre is world (0, 0.55) and ring k sits at radius 0.688 / 1.243 / 1.787.",
+  "steps": [
+    { "waitLoader": true, "wait": 3, "shot": "01_menu" },
+    { "tapFrac": [0.50, 0.72], "label": "PLAY (anchor 0.5, 0.28 of the menu panel)", "waitLoader": true, "wait": 6, "shot": "02_board" },
+    { "tapFrac": [0.50, 0.27], "label": "turn the outer ring (world y 2.34)", "wait": 2, "shot": "03_turn_outer" },
+    { "tapFrac": [0.50, 0.32], "label": "turn the middle ring (world y 1.79)", "wait": 2, "shot": "04_turn_middle" },
+    { "tapFrac": [0.50, 0.38], "label": "turn the inner ring (world y 1.24)", "wait": 2, "shot": "05_turn_inner" },
+    { "tapFrac": [0.50, 0.875], "label": "LAUNCH (anchor 0.5, 0.125 of the game panel)", "wait": 6, "shot": "06_result" },
+    { "tapFrac": [0.50, 0.71], "label": "the result card's action button", "wait": 4, "shot": "07_after_result" }
+  ]
+}

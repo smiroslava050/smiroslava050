@@ -1,0 +1,10 @@
+{
+  "attempts": [
+    {
+      "stage": "build",
+      "raw_stage": "verify",
+      "status": "PIPELINE_INFRA_ERROR",
+      "at_epoch": 1790355275
+    }
+  ]
+}

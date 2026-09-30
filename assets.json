@@ -1,0 +1,154 @@
+{
+  "app": "SkyOut",
+  "style": "cel-shaded toon game art, bold dark outline, flat shadow shapes, soft neon rim light, deep night-blue and cyan palette",
+  "assets": [
+    {
+      "name": "bg_menu",
+      "type": "bg",
+      "transparent": false,
+      "target": "Assets/Art/Textures/_BASE/Backgrounds/BG_main.png",
+      "orientation": "vertical 9:16 portrait",
+      "prompt": "Vertical 9:16 mobile game menu background of a calm night sky, three layers of distant rounded clouds, faint star dust, a soft violet glow near the top and a darkened deep blue base under the UI, cel-shaded toon game art, bold dark outline, flat shadow shapes, soft neon rim light, deep night-blue and cyan palette, no text, no UI elements"
+    },
+    {
+      "name": "bg_game",
+      "type": "bg",
+      "transparent": false,
+      "target": "Assets/Art/Textures/_BASE/Backgrounds/BG_game.png",
+      "orientation": "vertical 9:16 portrait",
+      "prompt": "Vertical 9:16 mobile game background of the same night sky, heavily muted and low contrast, the central area almost empty so gameplay reads on top of it, only soft cloud banks near the edges, cel-shaded toon game art, bold dark outline, flat shadow shapes, soft neon rim light, deep night-blue and cyan palette, no text, no UI elements"
+    },
+    {
+      "name": "sprite_balloon",
+      "type": "sprite",
+      "transparent": true,
+      "target": "Assets/Art/Sprites/sprite_balloon.png",
+      "orientation": "side view, envelope UP and basket DOWN",
+      "prompt": "One single glowing hot air balloon seen from the side, rounded envelope on top and a small wicker basket hanging below, cyan and gold panels, crisp silhouette, cel-shaded toon game art, bold dark outline, flat shadow shapes, soft neon rim light, deep night-blue and cyan palette"
+    },
+    {
+      "name": "sprite_hub",
+      "type": "sprite",
+      "transparent": true,
+      "target": "Assets/Art/Sprites/sprite_hub.png",
+      "orientation": "top-down, symmetric",
+      "prompt": "One single round launch pad seen from directly above, a disc with a glowing cyan outer ring and a simple landing mark in the middle, cel-shaded toon game art, bold dark outline, flat shadow shapes, soft neon rim light, deep night-blue and cyan palette"
+    },
+    {
+      "name": "sprite_ring_cell",
+      "type": "sprite",
+      "transparent": true,
+      "target": "Assets/Art/Sprites/sprite_ring_cell.png",
+      "orientation": "symmetric, stretched as a nine-slice plate",
+      "prompt": "One single rounded rectangular glass plate with an even thin glowing edge and a smooth translucent middle, perfectly symmetric so it can be stretched, cel-shaded toon game art, bold dark outline, flat shadow shapes, soft neon rim light, deep night-blue and cyan palette"
+    },
+    {
+      "name": "sprite_ring_rim",
+      "type": "sprite",
+      "transparent": true,
+      "target": "Assets/Art/Sprites/sprite_ring_rim.png",
+      "orientation": "symmetric, hollow ring",
+      "prompt": "One single thin glowing circular ring, hollow and completely empty in the middle, even thickness all the way round, cel-shaded toon game art, bold dark outline, flat shadow shapes, soft neon rim light, deep night-blue and cyan palette"
+    },
+    {
+      "name": "sprite_arrow_straight",
+      "type": "sprite",
+      "transparent": true,
+      "target": "Assets/Art/Sprites/sprite_arrow_straight.png",
+      "orientation": "nose UP",
+      "prompt": "One single wide wind arrow pointing straight up, thick rounded shaft with a broad arrow head at the top, cel-shaded toon game art, bold dark outline, flat shadow shapes, soft neon rim light, deep night-blue and cyan palette"
+    },
+    {
+      "name": "sprite_arrow_curve_cw",
+      "type": "sprite",
+      "transparent": true,
+      "target": "Assets/Art/Sprites/sprite_arrow_curve_cw.png",
+      "orientation": "entering at the bottom edge and leaving at the right edge",
+      "prompt": "One single curved wind ribbon entering at the bottom edge and leaving at the right edge, with an arrow head on the leaving end, smooth thick band, cel-shaded toon game art, bold dark outline, flat shadow shapes, soft neon rim light, deep night-blue and cyan palette"
+    },
+    {
+      "name": "sprite_arrow_curve_ccw",
+      "type": "sprite",
+      "transparent": true,
+      "target": "Assets/Art/Sprites/sprite_arrow_curve_ccw.png",
+      "orientation": "entering at the bottom edge and leaving at the left edge",
+      "prompt": "One single curved wind ribbon entering at the bottom edge and leaving at the left edge, with an arrow head on the leaving end, smooth thick band, cel-shaded toon game art, bold dark outline, flat shadow shapes, soft neon rim light, deep night-blue and cyan palette"
+    },
+    {
+      "name": "sprite_storm",
+      "type": "sprite",
+      "transparent": true,
+      "target": "Assets/Art/Sprites/sprite_storm.png",
+      "orientation": "symmetric",
+      "prompt": "One single storm swirl with a small lightning bolt at its heart, crimson and violet tones, compact and round, cel-shaded toon game art, bold dark outline, flat shadow shapes, soft neon rim light, deep night-blue and cyan palette"
+    },
+    {
+      "name": "sprite_cloud_check",
+      "type": "sprite",
+      "transparent": true,
+      "target": "Assets/Art/Sprites/sprite_cloud_check.png",
+      "orientation": "symmetric",
+      "prompt": "One single plump golden checkpoint cloud with a warm glow around it, simple rounded lobes, cel-shaded toon game art, bold dark outline, flat shadow shapes, soft neon rim light, deep night-blue and cyan palette"
+    },
+    {
+      "name": "sprite_gate_exit",
+      "type": "sprite",
+      "transparent": true,
+      "target": "Assets/Art/Sprites/sprite_gate_exit.png",
+      "orientation": "nose UP, the arch opens upward",
+      "prompt": "One single sky gate made of two glowing pillars joined by a golden arch that opens upward, empty in the middle, cel-shaded toon game art, bold dark outline, flat shadow shapes, soft neon rim light, deep night-blue and cyan palette"
+    },
+    {
+      "name": "sprite_icon_close",
+      "type": "sprite",
+      "transparent": true,
+      "target": "Assets/Art/Sprites/sprite_icon_close.png",
+      "orientation": "symmetric",
+      "prompt": "One single close icon, a simple cross of two thick rounded strokes, cel-shaded toon game art, bold dark outline, flat shadow shapes, soft neon rim light, deep night-blue and cyan palette"
+    },
+    {
+      "name": "sprite_btn_back",
+      "type": "sprite",
+      "transparent": true,
+      "target": "Assets/Art/Sprites/sprite_btn_back.png",
+      "orientation": "pointing LEFT",
+      "prompt": "One single back arrow icon pointing left, thick rounded stroke, cel-shaded toon game art, bold dark outline, flat shadow shapes, soft neon rim light, deep night-blue and cyan palette"
+    },
+    {
+      "name": "sprite_btn_pause",
+      "type": "sprite",
+      "transparent": true,
+      "target": "Assets/Art/Sprites/sprite_btn_pause.png",
+      "orientation": "symmetric",
+      "prompt": "One single pause icon, two thick rounded vertical bars side by side, cel-shaded toon game art, bold dark outline, flat shadow shapes, soft neon rim light, deep night-blue and cyan palette"
+    },
+    {
+      "name": "sprite_mark_emblem",
+      "type": "sprite",
+      "transparent": true,
+      "target": "Assets/Art/Sprites/sprite_mark_emblem.png",
+      "orientation": "symmetric",
+      "prompt": "One single abstract emblem made of three concentric arcs of different thickness with a gap on one side and a small wind arrow sitting in that gap, purely geometric, no letters and no writing of any kind, cel-shaded toon game art, bold dark outline, flat shadow shapes, soft neon rim light, deep night-blue and cyan palette"
+    },
+    {
+      "name": "sprite_spark",
+      "type": "sprite",
+      "transparent": true,
+      "target": "Assets/Art/Sprites/sprite_spark.png",
+      "orientation": "symmetric",
+      "prompt": "One single small four-pointed spark of cyan light with a soft round glow at its centre, cel-shaded toon game art, bold dark outline, flat shadow shapes, soft neon rim light, deep night-blue and cyan palette"
+    },
+    {
+      "name": "sprite_node_ring",
+      "type": "sprite",
+      "transparent": true,
+      "target": "Assets/Art/Sprites/sprite_node_ring.png",
+      "orientation": "symmetric",
+      "prompt": "One single round map node, a filled disc with a thick glowing circular border around it, cel-shaded toon game art, bold dark outline, flat shadow shapes, soft neon rim light, deep night-blue and cyan palette"
+    }
+  ],
+  "icon": {
+    "hero": "sprite_balloon",
+    "prompt": "One single glowing hot air balloon rising through a broken ring of wind over the night sky of this game, cel-shaded toon game art, bold dark outline, flat shadow shapes, soft neon rim light, deep night-blue and cyan palette, no text"
+  }
+}
